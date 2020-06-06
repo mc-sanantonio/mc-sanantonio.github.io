@@ -77,17 +77,8 @@ html {
 
 body {
   background-image: 
-  url(D:/webMC/img/design/bgheader.png);
-  /* url(D:/webMC/img/design/bgbody.png); */
-/* background-position:
-  top, /* this positions the first image */
-  /* bottom ; this positions the second image */ */
-/* background-repeat:
-  no-repeat; */
-  /* repeat; this applies to both images */
-  width: 
-  
-  100%;
+  url(../img/design/bgheader.png);
+  width: 100%;
 
 }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -1928,7 +1919,7 @@ button,
     padding-right: 2.75em; }
 
 #sidebar {
-  background-image: url(D:/webMC/img/design/bgmenu.png);
+  background-image: url(../img/design/bgmenu.png);
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
