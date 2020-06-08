@@ -77,9 +77,8 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-image: 
-  url(../img/design/bgheader.png);
-  width: 100%;
+  background-image: url(../img/design/bgheader.png);
+  background-size: 100%;
 
 }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -1921,6 +1920,7 @@ button,
 
 #sidebar {
   background-image: url(../img/design/bgmenu.png);
+  background-size: 450%;
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
@@ -2333,14 +2333,13 @@ button,
 
   .main-title {
     color: #fff;
-    font-size:  4em;
+    font-size:  350%;
     font-weight: bold;
     font-family: 'Julius Sans One', sans-serif;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     }
     
     .main-title {
-      margin-left: 10%;
       text-align: left;
     }
     
@@ -2348,6 +2347,7 @@ button,
       background-color: #f1f1f1;
     }
 
+    
     /* Carousel de Novedades */
 
     #myCarousel .list-inline {
