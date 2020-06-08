@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
 	Created by Eduardo Coreas
@@ -2304,31 +2305,6 @@ button,
 
 
 
-
-
-
-#titulo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#titulo>h1 {
-  max-width: 65%;
-}
-
-/* Start Julius Sans One */
-@font-face {
-  font-family: "Julius Sans One";
-  font-style: normal;
-  src: local("Julius Sans One"), local("Julius Sans One"), url(../webfonts/JuliusSansOne-Regular.ttf) format("ttf");
-  }
-
-  h1{
-    font-family: "Julius Sans One" !important;
-  }
-  /* End Julius Sans One */
-
-
   .product-slider { padding: 45px; }
 
   .product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
@@ -2359,7 +2335,7 @@ button,
     color: #fff;
     font-size:  4em;
     font-weight: bold;
-    font-family: "julius sans one";
+    font-family: 'Julius Sans One', sans-serif;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     }
     
